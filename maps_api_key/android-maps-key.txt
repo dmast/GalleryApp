@@ -1,0 +1,9 @@
+0lEUnITREbuf0zz5YXZY4sPJBtA2jI_Dwf7tKEQ
+
+BC:1D:0A:07:0F:09:F6:BB:7A:72:19:4D:91:7A:AD:CE
+
+<com.google.android.maps.MapView
+                 android:layout_width="fill_parent"
+                 android:layout_height="fill_parent"
+                 android:apiKey="0lEUnITREbuf0zz5YXZY4sPJBtA2jI_Dwf7tKEQ"
+                 />

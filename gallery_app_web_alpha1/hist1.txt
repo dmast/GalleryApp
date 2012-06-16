@@ -1,0 +1,500 @@
+    7  sublime .
+    8  cd
+    9  sublime .bashrc
+   10  .bashrc source
+   11  source .bashrc
+   12  cd code/rails/sample_app3.2/
+   13  sublime .
+   14  cd
+   15  sublime .bashrc
+   16  sublime .bash_profile
+   17  ls
+   18  source .bashrc
+   19  pwd
+   20  cd code/rails/sample_app3.2/
+   21  sublime .
+   22  ruby -v
+   23  echo '[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm" # Load RVM function' >> ~/.bash_profile
+   24  source ~/.bash_profile
+   25  sublime ~/.bash_profile
+   26  source ~/.bash_profile
+   27  ruby -v
+   28  rvm rvm use 1.9.3 --default
+   29  rvm use 1.9.3 --default
+   30  ruby -v
+   31  rvm use 1.9.3 --default
+   32  rvm --default use 1.9.3
+   33  rvm get head
+   34  rvm --default use 1.9.3
+   35  exit
+   36  which ruby
+   37  ruby --version
+   38  echo '[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm" # Load RVM function' >> ~/.bashrc
+   39  source ~/.bashrc
+   40  sublime ~/.bashrc
+   41  which ruby
+   42  ruby -v
+   43  which ruby
+   44  ruby --version
+   45  cd /Users/dmast/.rvm/
+   46  ls
+   47  cd bin/
+   48  ls
+   49  pwd
+   50  ruby -v
+   51  /Users/dmast/.rvm/bin/ruby -v
+   52  sublime ~/.bash_profile
+   53  sublime ~/.bashrc
+   54  ruby -v
+   55  ruby -v
+   56  source .bash_profile
+   57  ruby -v
+   58  source .bash_profile
+   59  source .bashrc
+   60  ruby -v
+   61  ruby -v
+   62  rvm default
+   63  ruby -v
+   64  ruby -v
+   65  which rspec
+   66  rspec
+   67  pwd
+   68  cd code/rails/sample_app3.2/
+   69  bundle --binstubs=./bundler_stubs
+   70  bundle --binstubs
+   71  rspec
+   72  ls
+   73  sublime .
+   74  which rspec
+   75  pwd
+   76  cd bin/
+   77  pwd
+   78  cd
+   79  sublime .bashrc
+   80  sublime .bash_profile
+   81  ruby -v
+   82  which rspec
+   83  ls
+   84  cd code/rails/
+   85  ls
+   86  cd sample_app3.2/
+   87  sublime .
+   88  which subl
+   89  which sublime
+   90  cd code/rails/
+   91  ls
+   92  sublime .
+   93  ln -s "/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl" ~/bin/subl
+   94  cd
+   95  ls
+   96  which subl
+   97  find subl
+   98  ls
+   99  cd /usr/local/
+  100  ls
+  101  cd bin
+  102  ls
+  103  export EDITOR='sublime -w'
+  104  pwd
+  105  cd 
+  106  cd code/rails/sample_app3.2/
+  107  ls
+  108  sublime .
+  109  sublime .
+  110  rspec spec/
+  111  cd code/rails/
+  112  cd sample_app3.2/
+  113  bundle
+  114  bundle exec annotate --position before
+  115  rake db:test:prepare
+  116  rails generate migration add_index_to_users_email
+  117  rake db:migrate
+  118  bundle
+  119  rails generate migration add_password_digest_to_users password_digest:string
+  120  rake db:migrate
+  121  rake db:test:prepate
+  122  rake db:test:prepare
+  123  rspec spec/
+  124  which perl
+  125  perl -v
+  126  ruby -v
+  127  cd code/rails/sample_app3.2/
+  128  heroku open
+  129  git branch
+  130  rake db:migrate
+  131  rspec spec/models/user_spec.rb 
+  132  guard
+  133  guard
+  134  guard
+  135  guard
+  136  guard
+  137  guard
+  138  guard
+  139  guard
+  140  guard
+  141  guard
+  142  [A
+  143  guard
+  144  guard
+  145  guard
+  146  guard
+  147  guard
+  148  bundle exec rspec spec/models/user_spec.rb
+  149  annotate
+  150  guard
+  151  cd code/rails/sample_app3.2/
+  152  ls
+  153  rails console
+  154  git add .
+  155  git commit -m "Made a basic User model, including secure passwords"
+  156  git checkout master
+  157  git merge modeling-users
+  158  git push
+  159  git checkout master
+  160  git checkout -b sign-up
+  161  pwd
+  162  bundle install
+  163  bundle
+  164  rake db:test:prepare
+  165  rake db:reset
+  166  rake db:test:prepare
+  167  git add .
+  168  git commit -m "Finish user signup"
+  169  git checkout master
+  170  git merge sign-up
+  171  git commit -am "Add SSL to production"
+  172  git push heroku
+  173  heroku run rake db:migrate
+  174  cd bin
+  175  ls
+  176  cd ..
+  177  gem install heroku
+  178  heroku run rake db:migrate
+  179  heroku addons:add piggyback_ssl
+  180  heroku push
+  181  heroku keys:add
+  182  heroku keys:add
+  183  heroku addons:add piggyback_ssl
+  184  heroku addons:add piggyback_ssl
+  185  git branch
+  186  git checkout -b sign-in-out
+  187  rails generate controller Sessions --no-test-framework
+  188  rails generate integration_test authentication_pages
+  189  rails generate migration add_remember_token_to_users
+  190  rake db:migrate
+  191  rake db:test:prepare
+  192  rake db:
+  193  rake db:test:prepare
+  194  rails generate migration add_remember_token_to_users
+  195  rake db:migrate
+  196  rake db:test:prepare
+  197  rake db:reset
+  198  rake db:
+  199  rake db:test:prepare
+  200  rake db:reset
+  201  rake db:migrate
+  202  cd code/rails/sample_app3.2/
+  203  ls
+  204  tail -f log/development.log 
+  205  tail -f log/development.log 
+  206  rails server
+  207  cd code/rails/
+  208  cd sample_app3.2/
+  209  rails server
+  210  rails server
+  211  bundle
+  212  bundle install
+  213  rails server
+  214  rails server
+  215  rails server
+  216  rails server
+  217  rails server
+  218  rails console --sandbox
+  219  cd code/rails/sample_app3.2/
+  220  rails console --sandbox
+  221  rails console
+  222  cd code/rails/sample_app3.2/
+  223  rails console
+  224  rails console
+  225  git add .
+  226  git commit -m "Finish sign in"
+  227  git checkout master
+  228  git merge sign-in-out
+  229  git push
+  230  git push heroku
+  231  git push heroku
+  232  bundle update
+  233  git push
+  234  git push heroku
+  235  bundle
+  236  git commit -m "Finish sign in"
+  237  git push heroku
+  238  git push
+  239  bundle update
+  240  git push heroku
+  241  gem install railties ~> 3.2.2.rc1
+  242  gem "railties" "~> 3.2.2.rc1"
+  243  gem install "railties" "~> 3.2.2.rc1"
+  244  gem install railties --pre
+  245  git push heroku
+  246  bundle
+  247  bundle update railties
+  248  bundle
+  249  bundle
+  250  /Users/dmast/Documents/yn/docs\ débo/Mes\ documents/Journal\ 2.doc\ carla ; exit;
+  251  cd code/rails/sample_app3.2/
+  252  guard
+  253  sublime features/step_definitions/authentication_steps.rb
+  254  gem install activesupport
+  255  bundle install
+  256  gem update activesupport
+  257  bundle
+  258  gem install activesupport --pre
+  259  bundle
+  260  bundle
+  261  bundle update
+  262  gem install activesupport --pre
+  263  bundle update
+  264  ls -al
+  265  bundle update activesupport
+  266  bundle update
+  267  gem install linecache19 -v '0.5.12'
+  268  bundle update
+  269  budle
+  270  bundle
+  271  bundle install
+  272  git add .
+  273  git commit "Update to Gemfile
+  274  "
+  275  git commit "Update to Gemfile"
+  276  git commit -m "Update to Gemfile"
+  277  git push
+  278  git push heroku
+  279  git push
+  280  bundle
+  281  git push heroku
+  282  ruby -v
+  283  git push heroku
+  284  gem install linecache19
+  285  git push heroku
+  286  git branch
+  287  git checkout -b updating-users
+  288  rake db:populate
+  289  rake db:test:prepare
+  290  git branch
+  291  ruby --version
+  292  cd code/rails/sample_app3.2/
+  293  rails server
+  294  rails server
+  295  rails server
+  296  rails server
+  297  bundle install
+  298  bundle
+  299  rails generate cucumber:install
+  300  rails server
+  301  rails server
+  302  gem update
+  303  bundle
+  304  bundle install
+  305  rails server
+  306  cd /Users/dmast/.rvm/gems/ruby-1.9.3-p125/gems/ruby-debug-base19-0.11.25/lib/
+  307  ks
+  308  ls
+  309  rm ruby_debug.bundle 
+  310  cd ..
+  311  cd ..
+  312  cd ..
+  313  cd ..
+  314  cd ..
+  315  cd ..
+  316  cd ..
+  317  ls
+  318  cd dmast/code/rails/sample_app3.2/
+  319  ls
+  320  rails server
+  321  bundle install
+  322  bundle
+  323  rails server
+  324  bundle config build.ruby-debug-base19 --with-ruby-include="$rvm_path/src/$(rvm tools strings)/"
+  325  bundle config build.ruby-debug-base19 --with-ruby-include="/Users/dmast/.rvm/src/ruby-1.9.3-p125/bin/
+  326  bundle config build.ruby-debug-base19 --with-ruby-include="/Users/dmast/.rvm/src/ruby-1.9.3-p125/bin/"
+  327  bundle install
+  328  bundle install
+  329  rails server
+  330  bundle install
+  331  bundle
+  332  rails server
+  333  bundle
+  334  bundle
+  335  rails server
+  336  cd code/rails/sample_app3.2/
+  337  sublime .
+  338  rails -v
+  339  rake db:migrate
+  340  rake db:migrate
+  341  rake db:test:prepare
+  342  rake db:reset
+  343  rails generate migration add_remember_token_to_users
+  344  bundle exec rake db:migrate
+  345  bunle exec rake db:test:prepare
+  346  bundle exec rake db:test:prepare
+  347  bundle --binstubs=./bundler_stubs
+  348  pwd
+  349  cucumber features/
+  350  rspec spec/
+  351  gurad
+  352  guard 
+  353  cucumber features/
+  354  guard 
+  355  guard 
+  356  ls
+  357  sublime Guardfile 
+  358  sublime Gemfile
+  359  bundle
+  360  bundle install
+  361  gem update
+  362  guard
+  363  guard
+  364  guard
+  365  guard
+  366  guard
+  367  guard
+  368  guard
+  369  guard
+  370  guard
+  371  guard
+  372  guard
+  373  guard
+  374  guard
+  375  la
+  376  ls
+  377  cd Library/
+  378  ls
+  379  pwd
+  380  cd ..
+  381  ls -al
+  382  chflags nohidden ~/Library/
+  383  pwd
+  384  cd code/
+  385  ls
+  386  cd rails/
+  387  ls
+  388  cd sample_app3.2/
+  389  ls
+  390  sublime .
+  391  rails server
+  392  rails server
+  393  rails server
+  394  rails server
+  395  rails server
+  396  rails server
+  397  rails server
+  398  rails server
+  399  rails server
+  400  rails server
+  401  cd code/rails/
+  402  ls
+  403  cd sample_app3.2/
+  404  ls
+  405  git add .
+  406  git commit -m "Finish user edit, update, index, and destroy actions"
+  407  git checkout master
+  408  git merge updating-users
+  409  git push
+  410  git push heroku
+  411  heroku run rake db:migrate
+  412  heroku run rake db:populate
+  413  ls
+  414  git checkout -b user-microposts
+  415  rails generate model Micropost content:string user_id:integer
+  416  rails generate integration_test micropost_pages
+  417  cd code/rails/
+  418  ls
+  419  cd sample_app3.2/
+  420  ls
+  421  pwd
+  422  guard
+  423  bundle
+  424  bundle exec rspec spec/
+  425  bundle exec rspec spec/
+  426  bundle exec rspec spec/
+  427  guard 
+  428  rails generate migration add_admin_to_users admin:boolean
+  429  bundle exec rake db:migrate
+  430  bundle exec rake db:test:prepare
+  431  rake db:populate
+  432  rake db:test:prepare
+  433  guard
+  434  guard
+  435  guard
+  436  rake db:migrate
+  437  rake db:test:prepare
+  438  guard
+  439  guard
+  440  rake db:populate
+  441  rake db:test:prepare
+  442  guard
+  443  guard
+  444  guard
+  445  git add .
+  446  git commit -m "Completed Microposts"
+  447  git push
+  448  git checkout master
+  449  git merge user-microposts
+  450  git push
+  451  dscacheutil -flushcache
+  452  ping www.github.com
+  453  curl www.github.com
+  454  dnscacheutil -flushcache
+  455  su
+  456  su
+  457  cd /bin/
+  458  ls
+  459  cd /sbin/
+  460  ls
+  461  pwd
+  462  cd 
+  463  cd code/rails/sample_app3.2/
+  464  ls
+  465  pwd
+  466  rails generate model Relationship follower_id:integer followed_id:integer
+  467  pwd
+  468  rails server
+  469  rails server
+  470  rails server
+  471  rails server
+  472  rails server
+  473  cd code/
+  474  ls
+  475  cd bootstrap/
+  476  ls
+  477  git pull
+  478  ls 
+  479  sublime README.md 
+  480  pwd
+  481  cd ..
+  482  cd rails
+  483  git branch
+  484  cd sample_app3.2/
+  485  git branch
+  486  git checkout -b following-users
+  487  ls
+  488  guard
+  489  guard
+  490  guard
+  491  guard
+  492  guard
+  493  guard
+  494  guard
+  495  guard
+  496  cd code/rails/sample_app3.2/
+  497  sublime .
+  498  rake db:migrate
+  499  rake db:test:prepare
+  500  cd code/rails/sample_app3.2/
+  501  ls
+  502  guard 
+  503  cd ..
+  504  cd sample_app_2nd_ed/
+  505  rails server
+  506  history > hist1.txt
