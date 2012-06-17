@@ -24,10 +24,24 @@
       This app allows you to browse gorgeous works of photography and artwork, and using your iPhone, iPad or Android device
       you can see exactly how the pieces would look on the walls in your home or office.
     </h2>
+    <br/>
+    <h2>
+        Just scan the proper barcode with your iPhone, iPad or Android device to get the App!
+    </h2>
 
-    <%= link_to "Try it now!", signup_path,
-                                class: "btn btn-large btn-primary" %>
+
+    <%#=  link_to "Try it now!", signup_path, class: "btn btn-large btn-primary" %>
+    <table cellpadding="10" align="center" width="100%">
+      <tr>
+        <td><%= image_tag("QR_Code_iPhone.png", alt: "Get iPhone App", :size => "210x210") %><br/>Get iPhone App</td>
+        <td><%= image_tag("QR_Code_iPad.png", alt: "Get iPhone App", :size => "210x210") %><br/>Get iPad App</td>
+        <td><%= image_tag("QR_Code_Android.png", alt: "Get iPhone App", :size => "210x210") %><br/>Get Android App</td>
+      </tr>
+      <tr></tr>
+    </table>
+
+
   </div>
 
-  <%= link_to image_tag("rails.png", alt: "Rails"), 'http://rubyonrails.org/' %>
+  <%#= link_to image_tag("rails.png", alt: "Rails"), 'http://rubyonrails.org/' %>
 <% end %>
