@@ -6924,3 +6924,131 @@ Processing by StaticPagesController#home as HTML
   Rendered layouts/_header.html.erb (1.6ms)
   Rendered layouts/_footer.html.erb (0.1ms)
 Completed 200 OK in 115ms (Views: 110.0ms | ActiveRecord: 2.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-17 10:00:05 -0400
+Processing by StaticPagesController#home as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" = 'iaPEb7nGQ-4gwMI0lnqu8Q' LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."remember_token" = 'iaPEb7nGQ-4gwMI0lnqu8Q' LIMIT 1
+  Rendered static_pages/home.html.erb within layouts/application (43.9ms)
+Compiled jquery.js  (3ms)  (pid 15905)
+Compiled jquery_ujs.js  (0ms)  (pid 15905)
+Compiled bootstrap-transition.js  (0ms)  (pid 15905)
+Compiled bootstrap-alert.js  (0ms)  (pid 15905)
+Compiled bootstrap-button.js  (1ms)  (pid 15905)
+Compiled bootstrap-carousel.js  (0ms)  (pid 15905)
+Compiled bootstrap-collapse.js  (0ms)  (pid 15905)
+Compiled bootstrap-dropdown.js  (0ms)  (pid 15905)
+Compiled bootstrap-modal.js  (0ms)  (pid 15905)
+Compiled bootstrap-scrollspy.js  (0ms)  (pid 15905)
+Compiled bootstrap-tab.js  (0ms)  (pid 15905)
+Compiled bootstrap-tooltip.js  (0ms)  (pid 15905)
+Compiled bootstrap-popover.js  (0ms)  (pid 15905)
+Compiled bootstrap-typeahead.js  (0ms)  (pid 15905)
+Compiled bootstrap.js  (337ms)  (pid 15905)
+Compiled application.js  (527ms)  (pid 15905)
+  Rendered layouts/_shim.html.erb (0.4ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" = 'iaPEb7nGQ-4gwMI0lnqu8Q' LIMIT 1[0m
+  Rendered layouts/_header.html.erb (2.7ms)
+  Rendered layouts/_footer.html.erb (0.6ms)
+Completed 200 OK in 1092ms (Views: 953.1ms | ActiveRecord: 18.2ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-06-17 10:00:08 -0400
+Served asset /custom.css - 200 OK (21ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-17 10:00:08 -0400
+Served asset /application.css - 200 OK (14ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-06-17 10:00:08 -0400
+Served asset /static_pages.css - 200 OK (1ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-06-17 10:00:08 -0400
+Served asset /sessions.css - 200 OK (1ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2012-06-17 10:00:08 -0400
+Served asset /bootstrap-transition.js - 200 OK (3ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-06-17 10:00:08 -0400
+Served asset /users.css - 200 OK (5ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-17 10:00:08 -0400
+Served asset /jquery.js - 200 OK (5ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-17 10:00:08 -0400
+Served asset /jquery_ujs.js - 200 OK (2ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2012-06-17 10:00:08 -0400
+Served asset /bootstrap-button.js - 200 OK (3ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2012-06-17 10:00:08 -0400
+Served asset /bootstrap-collapse.js - 200 OK (36ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2012-06-17 10:00:08 -0400
+Served asset /bootstrap-dropdown.js - 200 OK (3ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2012-06-17 10:00:08 -0400
+Served asset /bootstrap-carousel.js - 200 OK (2ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2012-06-17 10:00:08 -0400
+Served asset /bootstrap-alert.js - 200 OK (3ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2012-06-17 10:00:08 -0400
+Served asset /bootstrap-scrollspy.js - 200 OK (2ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2012-06-17 10:00:08 -0400
+Served asset /bootstrap-tab.js - 200 OK (7ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2012-06-17 10:00:08 -0400
+Served asset /bootstrap-tooltip.js - 200 OK (2ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2012-06-17 10:00:08 -0400
+Served asset /bootstrap-popover.js - 200 OK (2ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-06-17 10:00:08 -0400
+Served asset /bootstrap.js - 200 OK (119ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-06-17 10:00:08 -0400
+Served asset /static_pages.js - 200 OK (1ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2012-06-17 10:00:08 -0400
+Served asset /bootstrap-modal.js - 200 OK (2ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2012-06-17 10:00:08 -0400
+Served asset /bootstrap-typeahead.js - 200 OK (2ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-06-17 10:00:08 -0400
+Served asset /sessions.js - 200 OK (1ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-06-17 10:00:08 -0400
+Served asset /users.js - 200 OK (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-17 10:00:08 -0400
+Served asset /application.js - 200 OK (120ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2012-06-17 10:00:08 -0400
+Served asset /rails.png - 200 OK (78ms)
